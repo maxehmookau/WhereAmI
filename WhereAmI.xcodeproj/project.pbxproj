@@ -18,6 +18,7 @@
 		5021FC38150E68D500829DAF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5021FC37150E68D500829DAF /* README.md */; };
 		5021FC3D150E6ACD00829DAF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5021FC3C150E6ACD00829DAF /* MapKit.framework */; };
 		5021FC3F150E6C8900829DAF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5021FC3E150E6C8900829DAF /* CoreLocation.framework */; };
+		5021FC50150E937C00829DAF /* LocationPin.m in Sources */ = {isa = PBXBuildFile; fileRef = 5021FC4F150E937C00829DAF /* LocationPin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		5021FC37150E68D500829DAF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		5021FC3C150E6ACD00829DAF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		5021FC3E150E6C8900829DAF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5021FC4E150E937C00829DAF /* LocationPin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationPin.h; sourceTree = "<group>"; };
+		5021FC4F150E937C00829DAF /* LocationPin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationPin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,8 @@
 				5021FC2C150E68B400829DAF /* WAIViewController.h */,
 				5021FC2D150E68B400829DAF /* WAIViewController.m */,
 				5021FC2F150E68B400829DAF /* WAIViewController.xib */,
+				5021FC4E150E937C00829DAF /* LocationPin.h */,
+				5021FC4F150E937C00829DAF /* LocationPin.m */,
 				5021FC21150E68B400829DAF /* Supporting Files */,
 			);
 			path = WhereAmI;
@@ -176,6 +181,7 @@
 				5021FC27150E68B400829DAF /* main.m in Sources */,
 				5021FC2B150E68B400829DAF /* WAIAppDelegate.m in Sources */,
 				5021FC2E150E68B400829DAF /* WAIViewController.m in Sources */,
+				5021FC50150E937C00829DAF /* LocationPin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +293,7 @@
 				5021FC36150E68B400829DAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,9 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
+#import "LocationPin.h"
 
-@interface WAIViewController : UIViewController
+@interface WAIViewController : UIViewController <CLLocationManagerDelegate>
 {
     IBOutlet MKMapView *mapView;
+    CLLocationManager *manager;
+    LocationPin *pin;
 }
 @end
