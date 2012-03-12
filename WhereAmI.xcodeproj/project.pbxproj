@@ -15,6 +15,7 @@
 		5021FC2B150E68B400829DAF /* WAIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5021FC2A150E68B400829DAF /* WAIAppDelegate.m */; };
 		5021FC2E150E68B400829DAF /* WAIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5021FC2D150E68B400829DAF /* WAIViewController.m */; };
 		5021FC31150E68B400829DAF /* WAIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5021FC2F150E68B400829DAF /* WAIViewController.xib */; };
+		5021FC38150E68D500829DAF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5021FC37150E68D500829DAF /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,16 @@
 		5021FC1A150E68B400829DAF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5021FC1C150E68B400829DAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5021FC1E150E68B400829DAF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5021FC22150E68B400829DAF /* WhereAmI-Info.plist */ = {isa = PBXFileReference; path = "WhereAmI-Info.plist"; sourceTree = "<group>"; };
+		5021FC22150E68B400829DAF /* WhereAmI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WhereAmI-Info.plist"; sourceTree = "<group>"; };
 		5021FC24150E68B400829DAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5021FC26150E68B400829DAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5021FC28150E68B400829DAF /* WhereAmI-Prefix.pch */ = {isa = PBXFileReference; path = "WhereAmI-Prefix.pch"; sourceTree = "<group>"; };
-		5021FC29150E68B400829DAF /* WAIAppDelegate.h */ = {isa = PBXFileReference; path = WAIAppDelegate.h; sourceTree = "<group>"; };
+		5021FC28150E68B400829DAF /* WhereAmI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WhereAmI-Prefix.pch"; sourceTree = "<group>"; };
+		5021FC29150E68B400829DAF /* WAIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAIAppDelegate.h; sourceTree = "<group>"; };
 		5021FC2A150E68B400829DAF /* WAIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAIAppDelegate.m; sourceTree = "<group>"; };
-		5021FC2C150E68B400829DAF /* WAIViewController.h */ = {isa = PBXFileReference; path = WAIViewController.h; sourceTree = "<group>"; };
+		5021FC2C150E68B400829DAF /* WAIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAIViewController.h; sourceTree = "<group>"; };
 		5021FC2D150E68B400829DAF /* WAIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAIViewController.m; sourceTree = "<group>"; };
 		5021FC30150E68B400829DAF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WAIViewController.xib; sourceTree = "<group>"; };
+		5021FC37150E68D500829DAF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 		5021FC0B150E68B400829DAF = {
 			isa = PBXGroup;
 			children = (
+				5021FC37150E68D500829DAF /* README.md */,
 				5021FC20150E68B400829DAF /* WhereAmI */,
 				5021FC19150E68B400829DAF /* Frameworks */,
 				5021FC17150E68B400829DAF /* Products */,
@@ -151,6 +154,7 @@
 			files = (
 				5021FC25150E68B400829DAF /* InfoPlist.strings in Resources */,
 				5021FC31150E68B400829DAF /* WAIViewController.xib in Resources */,
+				5021FC38150E68D500829DAF /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
