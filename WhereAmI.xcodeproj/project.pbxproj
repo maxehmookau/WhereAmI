@@ -16,6 +16,8 @@
 		5021FC2E150E68B400829DAF /* WAIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5021FC2D150E68B400829DAF /* WAIViewController.m */; };
 		5021FC31150E68B400829DAF /* WAIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5021FC2F150E68B400829DAF /* WAIViewController.xib */; };
 		5021FC38150E68D500829DAF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5021FC37150E68D500829DAF /* README.md */; };
+		5021FC3D150E6ACD00829DAF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5021FC3C150E6ACD00829DAF /* MapKit.framework */; };
+		5021FC3F150E6C8900829DAF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5021FC3E150E6C8900829DAF /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		5021FC2D150E68B400829DAF /* WAIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAIViewController.m; sourceTree = "<group>"; };
 		5021FC30150E68B400829DAF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WAIViewController.xib; sourceTree = "<group>"; };
 		5021FC37150E68D500829DAF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		5021FC3C150E6ACD00829DAF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5021FC3E150E6C8900829DAF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5021FC3F150E6C8900829DAF /* CoreLocation.framework in Frameworks */,
+				5021FC3D150E6ACD00829DAF /* MapKit.framework in Frameworks */,
 				5021FC1B150E68B400829DAF /* UIKit.framework in Frameworks */,
 				5021FC1D150E68B400829DAF /* Foundation.framework in Frameworks */,
 				5021FC1F150E68B400829DAF /* CoreGraphics.framework in Frameworks */,
@@ -70,6 +76,8 @@
 		5021FC19150E68B400829DAF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5021FC3E150E6C8900829DAF /* CoreLocation.framework */,
+				5021FC3C150E6ACD00829DAF /* MapKit.framework */,
 				5021FC1A150E68B400829DAF /* UIKit.framework */,
 				5021FC1C150E68B400829DAF /* Foundation.framework */,
 				5021FC1E150E68B400829DAF /* CoreGraphics.framework */,

@@ -7,15 +7,15 @@
 //
 
 #import "WAIViewController.h"
-
 @interface WAIViewController ()
-
 @end
 
 @implementation WAIViewController
 
 - (void)viewDidLoad
 {
+    [mapView setMapType:MKMapTypeSatellite];
+    
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
